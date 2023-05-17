@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>그리드 레이아웃</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+    <style>
+        #wrap {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: 1fr 2fr;
+            row-gap: 5px;
+            column-gap: 5px;
+        }
+
+        .item {
+            padding: 10px;
+            background-color: gainsboro;
+        }
+        .item:nth-child(2n+1) {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="item">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas necessitatibus eum quibusdam at, ab beatae blanditiis aliquid veniam suscipit hic minima nam dolorum tenetur, exercitationem laborum illum explicabo labore ipsum quis fuga id eligendi soluta? Ducimus dolorum, molestias sunt officiis dolore doloribus perferendis. Nisi facilis ad dolorem laudantium exercitationem suscipit dolores in neque ducimus ea aut, maiores aliquam! Voluptatem vitae natus consectetur, reprehenderit eaque praesentium quis officiis possimus veniam dolorem quia sint eum a voluptatibus aperiam quasi optio. Error porro tenetur voluptatibus beatae, nostrum omnis minima iure animi ipsa sunt ex commodi fugit doloribus qui quod, eius nulla, officiis blanditiis?</div>
+        <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, voluptatibus! Qui nihil tenetur, iusto numquam repellat, voluptate eos eum quasi dolorum autem aliquid saepe doloremque illum repellendus dolores facere. Quidem earum, porro, possimus molestiae esse accusamus quasi quia consequatur tempore cum ad sed impedit, quisquam rem. Unde, quaerat. Ipsam ipsum nostrum, quisquam aperiam veniam ad possimus ex, modi est quae exercitationem facilis voluptas fuga nihil ab repudiandae reiciendis maiores rem tenetur, in adipisci! Suscipit asperiores dolore quos numquam ex voluptate animi voluptatibus quas similique. Eaque illum enim corporis doloremque. Obcaecati aut facilis vitae cumque molestiae et dolores maiores corrupti possimus!</div>
+    </div>
+</body>
+</html>
